@@ -2,7 +2,7 @@ import sqlite3
 import yfinance as yf
 import pandas as pd
 
-indices = ['^GSPC', '^FTSE', '^N225']
+indices = ['^GSPC','^NSEI']
 data_frames = []
 
 for index in indices:
