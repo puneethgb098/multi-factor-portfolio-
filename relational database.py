@@ -1,4 +1,4 @@
-class PortfolioOptimization:
+class Data:
     
     def __init__(self, indices, start_date, end_date, interval, db_name):
         self.fetch_data(indices, start_date, end_date, interval)
