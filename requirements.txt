@@ -1,0 +1,7 @@
+import sqlite3
+import yfinance as yf
+import pandas as pd
+import numpy as np
+from scipy.optimize import minimize
+from sklearn.impute import SimpleImputer
+from sklearn.ensemble import GradientBoostingRegressor
