@@ -1,7 +1,3 @@
-import sqlite3
-import yfinance as yf
-import pandas as pd
-
 class PortfolioOptimization:
     
     def __init__(self, indices, start_date, end_date, interval, db_name):
