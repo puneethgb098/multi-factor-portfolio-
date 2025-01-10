@@ -1,4 +1,4 @@
-class MultiFactorPortfolio:
+class Weights_Allocation:
     
     def __init__(self, data):
         self.data = data 
